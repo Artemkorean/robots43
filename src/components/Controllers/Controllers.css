@@ -1,0 +1,8 @@
+.controllers{
+    width: 200px;
+    color: rgb(227, 227, 243);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
