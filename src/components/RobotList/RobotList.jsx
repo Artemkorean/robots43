@@ -1,11 +1,11 @@
 import './RobotList.css'
-import Robot from ''
+import Robot from '../Robot/Robot'
 
-export default function RobotList({robots}){
+export default function RobotList({ robots }) {
     return(
         <ul className='cards'>
             {
-                robots.map(robot => (<Robot robot={robot}))
+                robots.map(robot => (<Robot robot={robot} />))
             }
         </ul>
     )
