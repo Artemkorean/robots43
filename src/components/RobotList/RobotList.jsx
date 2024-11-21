@@ -5,7 +5,7 @@ export default function RobotList({ robots }) {
     return(
         <ul className='cards'>
             {
-                robots.map(robot => (<Robot robot={robot} />))
+                robots.map(robot => (<Robot key={`robot-${robot.id}`} robot={robot} />))
             }
         </ul>
     )
